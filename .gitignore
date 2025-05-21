@@ -1,3 +1,12 @@
+# === CUSTOM IGNORES FOR VOICE_GENDER_CLASSIFIER ===
+
+venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+data/*.wav
+.DS_Store
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]

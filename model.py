@@ -163,7 +163,7 @@ class ECAPA_gender(nn.Module, PyTorchModelHubMixin):
             audio = resampler(audio)
         return audio.mean(dim=0, keepdim=True)  # Convert to mono if stereo
     
-    def predict(self, audio : torch.Tensor, device: torch.device) -> torch.Tensor:
+    def predict(self, audio: str, device: torch.device) -> str:
         audio = self.load_audio(audio)
         audio = audio.to(device)
         self.eval()
