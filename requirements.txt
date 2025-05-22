@@ -6,3 +6,4 @@ safetensors
 fastapi
 uvicorn
 python-multipart
+numpy
