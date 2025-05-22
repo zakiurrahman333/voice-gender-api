@@ -11,7 +11,7 @@ device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 model.to(device)
 
 # Load the example file and use predict function to directly get the output
-example_file = "data/00002.wav"
+example_file = "data/00001.wav"
 with torch.no_grad():
     output = model.predict(example_file, device=device)
     print("Gender : ", output)
