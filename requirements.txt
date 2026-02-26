@@ -1,12 +1,11 @@
 torch==2.2.2
 torchaudio==2.2.2
-pysoundfile
+soundfile
 huggingface_hub
 safetensors
 fastapi
 uvicorn
 python-multipart
 numpy
-streamlit
-torchcodec
+
 
