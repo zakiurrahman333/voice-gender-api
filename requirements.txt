@@ -1,5 +1,5 @@
-torch
-torchaudio
+torch==2.2.2
+torchaudio==2.2.2
 pysoundfile
 huggingface_hub
 safetensors
@@ -9,3 +9,4 @@ python-multipart
 numpy
 streamlit
 torchcodec
+
